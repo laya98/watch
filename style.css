@@ -1,0 +1,45 @@
+#outsideBox{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #818992;
+}
+#insideBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    height: 240px;
+    text-align: center;
+    background-color: rgb(245, 229, 12);
+
+}
+#time{
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 50px;
+    color: black;
+    font-family:monospace;
+    background-color: rgb(245, 229, 12);
+
+}
+#date{
+    height: 40px;
+    background-color: rgb(245, 229, 12);
+
+    font-size: 22px;
+    font-family: fantasy;
+}
+#setTime,#setDate{
+    margin: 0%;
+}
+#setColor{
+    border: 0px soild black;
+    background-color: rgb(245, 229, 12);
+
+}
